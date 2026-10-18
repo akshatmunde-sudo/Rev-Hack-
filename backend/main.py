@@ -219,3 +219,6 @@ async def risk_score(b: BuildingRequest):
             status, construction, roof, condition, age, height, gust, rain, score
         ),
     }
+
+from payments import router as payments_router
+app.include_router(payments_router)
