@@ -1,0 +1,2 @@
+cd city-3d-map\backend
+pip freeze > requirements.txt
